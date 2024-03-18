@@ -45,7 +45,7 @@ data = loads.data()
 After this, `data` will contain an object with the attributes `bremen`,
 `etrago`, `buses` and `loads` where `bremen` contains the geometry read
 from the GeoJSON file, `etrago` contains the `Etrago` object constructed
-from the data read from the database, `buses` is and object with two
+from the data read from the database, `buses` is an object with two
 attributes, each containing a different set of buses and `loads`
 contains a `DataFrame` with those loads, which are attached to buses
 contained inside the geometry.
